@@ -25,15 +25,17 @@
 ]{geometry}
 
 
-\newtheorem{theorem}[algorithm]{theorem}
-\newtheorem{corollary}[algorithm]{corollary}
-\newtheorem{lemma}[algorithm]{lemma}
-\newtheorem{definition}[algorithm]{definition}
-\newtheorem{remark}[algorithm]{remark}
-\newtheorem*{aremark}{added remark}
-\newtheorem{example}[algorithm]{example}
-\newtheorem*{adefinition}{added definition}
-\newtheorem*{aexample}{added example}
+\newtheorem{theorem}[algorithm]{Theorem}
+\newtheorem{corollary}[algorithm]{Corollary}
+\newtheorem{lemma}[algorithm]{Lemma}
+\newtheorem{proposition}[algorithm]{Proposition}
+\newtheorem{definition}[algorithm]{Definition}
+\newtheorem*{*definition}{Definition}
+\newtheorem*{remark}{Remark}
+\newtheorem*{aremark}{Added remark}
+\newtheorem{example}{Example}
+\newtheorem*{adefinition}{Added definition}
+\newtheorem*{aexample}{Added example}
 
 
 
@@ -49,4 +51,4 @@
 \raggedright
 
 
-\newcommand{\importvl}[3]{\noindent\xrfill[0.7ex]{1pt}Anfang von Vorlesung #1 am #2\xrfill[0.7ex]{1pt}\input{#3}\noindent\xrfill[0.7ex]{1pt}Ende von Vorlesung #1 am #2\xrfill[0.7ex]{1pt}}
+\newcommand{\importvl}[3]{\noindent\xrfill[0.7ex]{1pt}Start of lecture #1 (#2)\xrfill[0.7ex]{1pt}\input{#3}\noindent\xrfill[0.7ex]{1pt}End of lecture #1 (#2)\xrfill[0.7ex]{1pt}}
